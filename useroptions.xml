@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/useroptions.xsd">	
+	<import>
+		<categories>
+			<category name="settings.display.lists">
+				<parent>settings.display</parent>
+			</category>
+		</categories>
+		
+		<options>
+			<option name="smileysPerPage">
+				<categoryname>settings.display.lists</categoryname>
+				<optiontype>select</optiontype>
+				<visible>4</visible>
+				<defaultvalue>0</defaultvalue>
+				<selectoptions><![CDATA[0:wcf.global.defaultValue
+10
+20
+30
+40
+50
+100]]></selectoptions>
+				<showorder>5</showorder>
+				<options>module_smiley_pages</options>
+			</option>
+		</options>
+	</import>
+</data>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/language.xsd" languagecode="de">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.module_smiley_pages"><![CDATA[Smiley Seiten]]></item>
+		<item name="wcf.acp.option.module_smiley_pages.description"><![CDATA[Aktiviert die seitenweise Anzeige von Smileys.]]></item>
+		<item name="wcf.acp.option.smileys_per_page"><![CDATA[Smileys pro Seite]]></item>
+		<item name="wcf.acp.option.smileys_per_page.description"><![CDATA[Wieviele Smileys sollen pro Seite angezeigt werden?]]></item>
+	</category>
+
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.category.settings.display.lists"><![CDATA[Auflistungen]]></item>
+		<item name="wcf.user.option.smileysPerPage"><![CDATA[Anzahl Smileys pro Seite]]></item>
+		<item name="wcf.user.option.smileysPerPage.description"><![CDATA[Geben Sie die Anzahl der Smileys an, die auf einer Seite angezeigt werden sollen.]]></item>
+	</category>	
+</language>

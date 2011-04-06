@@ -1,0 +1,14 @@
+--- F:/Development/PHP/workspace/WCF11/templates/messageFormSmileys.tpl	Sun Apr 03 11:30:32 2011
++++ F:/Development/PHP/workspace/info.codingcorner.wcf.message.smileypages/templates_patched/messageFormSmileys.tpl	Mon Apr 04 22:11:10 2011
+@@ -1,3 +1,6 @@
++{if MODULE_SMILEY_PAGES}
++{include file="messageFormSmileyPages"}
++{else}
+ <div class="hidden" id="smilies">
+ 	<fieldset class="noJavaScript">
+ 		<legend class="noJavaScript">{lang}wcf.smiley.smilies{/lang}</legend>
+@@ -29,3 +32,4 @@
+ 	{/if}
+ 	//]]>
+ </script>
++{/if}
