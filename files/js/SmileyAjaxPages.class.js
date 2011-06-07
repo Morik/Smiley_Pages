@@ -206,6 +206,8 @@ var SmileyAjaxPages = Class.create({
 				smileyElement.observe('click', function(event) {
 					WysiwygInsert('smiley', smileyPath, smileyTitle, smileyCode);
 				});
+				
+				smilies[smileyCode] = $A(smileyPath, smileyTitle);
 			});
 			smileysContainer.insert(smileyList);
 			smileyList.addClassName('smileys');
